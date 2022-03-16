@@ -7,9 +7,9 @@
             <h1><a href="">Diet-Bowl</a></h1>
         </div>
         <div :class="head_right_class">
-            <h2><a href="">Features</a></h2>
-            <h2><a href="">Download</a></h2>
-            <h2><a href="">About Us</a></h2>
+            <h2><a href="">Feat<span style="color:white">ures</span></a></h2>
+            <h2><a style="color:white" href="">Download</a></h2>
+            <h2><a style="color:white" href="">About Us</a></h2>
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@
     const head_right_class = ref('head-right');
 </script>
 
-<style>
+<style scoped>
 
 .page-header{
     display: flex;
@@ -51,7 +51,7 @@
 
 .head-right{
     display: flex;
-    gap: 80px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -59,7 +59,6 @@
 h1{
     font-family: 'Lato';
     font-weight: 700;
-    color: #0d8b1e;
 }
 
 img{
@@ -74,4 +73,7 @@ a{
     text-decoration: none;
 }
 
+.head-left a{
+    color: #0d8b1e;
+}
 </style>
