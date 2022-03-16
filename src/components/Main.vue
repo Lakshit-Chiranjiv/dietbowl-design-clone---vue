@@ -33,7 +33,7 @@ export default {
     }
 
     .main-left{
-        max-width: 54%;
+        max-width: 50%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -44,13 +44,14 @@ export default {
         font-size: 72px;
         margin: 4px;
         text-align: left;
+        color: black;
     }
     .main-left h5{
         font-size: 20px;
         margin: 4px;
         font-weight: 500;
         text-align: left;
-        margin-left: 80px;
+        margin-left: 50px;
         color: rgb(95, 95, 95);
     }
     .main-right img{
@@ -67,7 +68,7 @@ export default {
         background-color: #a5a5a5;
         transform: rotateZ(90deg);
         position: absolute;
-        left: 2%;
+        left: 0%;
     }
 
     .scroll::before{
